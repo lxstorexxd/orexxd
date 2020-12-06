@@ -1,0 +1,96 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  background: url("newyear.png") repeat;
+}
+
+.content {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 80px;
+	margin-top: 210px;
+	color: white;
+	text-shadow: 0 3px 40px rgba(129, 34, 245, 1);
+}
+
+.garland {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 40px;
+	color: white;
+	text-shadow: 0 7px 40px rgba(10, 95, 56, 1);
+}
+
+.discordlamp {
+	padding: 20px;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 30px;
+	color: white;
+	text-shadow: 0 3px 40px rgba(129, 34, 245, 1);
+}
+
+.discord {
+	margin-top: -226px;
+	margin-left: 1400px;
+}
+
+.bubbly-button {
+  font-family: 'Press Start 2P', cursive;
+  display: inline-block;
+  font-size: 1em;
+  padding: 1em 2em;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #8b00ff;
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-bottom: 60px;
+  color: #fff;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+  box-shadow: 0 3px 40px rgba(129, 34, 245, 1);
+}
+.bubbly-button:focus {
+  outline: 0;
+}
+.bubbly-button:before, .bubbly-button:after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 140%;
+  height: 100%;
+  left: -20%;
+  z-index: -1000;
+  transition: all ease-in-out 0.5s;
+  background-repeat: no-repeat;
+}
+.bubbly-button:before {
+  display: none;
+  top: -75%;
+  background-image: radial-gradient(circle, #8b00ff 20%, transparent 20%), radial-gradient(circle, transparent 20%, #8b00ff 20%, transparent 30%), radial-gradient(circle, #8b00ff 20%, transparent 20%), radial-gradient(circle, #8b00ff 20%, transparent 20%), radial-gradient(circle, transparent 10%, #8b00ff 15%, transparent 20%), radial-gradient(circle, #8b00ff 20%, transparent 20%), radial-gradient(circle, #8b00ff 20%, transparent 20%), radial-gradient(circle, #8b00ff 20%, transparent 20%), radial-gradient(circle, #8b00ff 20%, transparent 20%);
+  background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
+}
+.bubbly-button:after {
+  display: none;
+  bottom: -75%;
+  background-image: radial-gradient(circle, #8b00ff 20%, transparent 20%), radial-gradient(circle, #8b00ff 20%, transparent 20%), radial-gradient(circle, transparent 10%, #8b00ff 15%, transparent 20%), radial-gradient(circle, #8b00ff 20%, transparent 20%), radial-gradient(circle, #8b00ff 20%, transparent 20%), radial-gradient(circle, #8b00ff 20%, transparent 20%), radial-gradient(circle, #8b00ff 20%, transparent 20%);
+  background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 10% 10%, 20% 20%;
+}
+.bubbly-button:active {
+  transform: scale(0.9);
+  background-color: #8b00ff;
+  box-shadow: 0 2px 25px rgba(255, 0, 130, 0.2);
+}
+.bubbly-button.animate:before {
+  display: block;
+  animation: topBubbles ease-in-out 0.75s forwards;
+}
+.bubbly-button.animate:after {
+  display: block;
+  animation: bottomBubbles ease-in-out 0.75s forwards;
+}
