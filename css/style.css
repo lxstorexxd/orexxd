@@ -5,7 +5,7 @@ html, body {
   overflow: hidden;
   position: relative;
   text-align: center;
-  background: url("newyear.png") repeat;
+  background: #323234;
 }
 
 .content {
