@@ -2,9 +2,13 @@ html, body {
 	margin: 0;
 	height: 100%;
 	width: 100%;
-	background: #323234;
+	ackground-image: url(../background/lxst.png);
+	-moz-background-size: 100%;
+	-webkit-background-size: 100%;
+    	-o-background-size: 100%;
+    	background-size: 100%;
 	position: relative;
-    text-align: center;
+    	text-align: center;
 }
 
 .garland {
