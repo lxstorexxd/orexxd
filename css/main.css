@@ -2,7 +2,7 @@ html, body {
 	margin: 0;
 	height: 100%;
 	width: 100%;
-	ackground-image: url(../background/lxst.png);
+	ackground-image: url(../lxst.png);
 	-moz-background-size: 100%;
 	-webkit-background-size: 100%;
     	-o-background-size: 100%;
