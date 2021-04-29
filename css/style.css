@@ -5,7 +5,7 @@ html, body {
 .content {
 	font-family: 'Press Start 2P', cursive;
 	font-size: 80px;
-	margin-top: 210px;
+	margin-top: 5%;
 	color: white;
 	text-shadow: 0 3px 40px rgba(129, 34, 245, 1);
 }
@@ -17,17 +17,9 @@ html, body {
 	text-shadow: 0 7px 40px rgba(10, 95, 56, 1);
 }
 
-.discordlamp {
-	padding: 20px;
-	font-family: 'Press Start 2P', cursive;
-	font-size: 30px;
-	color: white;
-	text-shadow: 0 3px 40px rgba(129, 34, 245, 1);
-}
-
 .discord {
-	margin-top: -226px;
-	margin-left: 1400px;
+	margin-top: 5%;
+	margin-left: 0%;
 }
 
 .bubbly-button {
