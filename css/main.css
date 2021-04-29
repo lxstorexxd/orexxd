@@ -3,10 +3,7 @@ html, body {
 	height: 100%;
 	width: 100%;
 	background-image: url(../background/nikto.jpg);
-	-moz-background-size: 100%;
-	-webkit-background-size: 100%;
-    	-o-background-size: 100%;
-    	background-size: 100%;
+    	background- size: 100% auto;
 	position: relative;
     	text-align: center;
 }
