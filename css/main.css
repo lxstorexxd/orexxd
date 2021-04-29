@@ -2,9 +2,8 @@ html, body {
 	margin: 0;
 	height: 100%;
 	width: 100%;
-	background-image: url(../background/nikto.jpg);
-    	background- size: 100% auto;
-	position: relative;
+	background: url(../background/nikto.jpg)no-repeat center center fixed;
+        background-size: cover;
     	text-align: center;
 }
 
